@@ -11,8 +11,14 @@ En el año 2024 el artista generativo Bjørn Staal usa el concepto en su exposic
 Los pasos para ejecutar la aplicación son:
 
 * Descarga el repositorio.
-* Ejecutar npm install
-* Ejecutar npm start
+* Ejecutar en una terminal, por ejemplo el símbolo del sistema:
+  ``` bash
+  npm install
+  ```
+* Ejecutar
+  ``` bash
+  npm start
+  ```
 * Abre un navegador y escribe la dirección
   ```
   http://localhost:3000/page1
