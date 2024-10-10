@@ -27,4 +27,7 @@ Los pasos para ejecutar la aplicación son:
   ```
   http://localhost:3000/page2
   ```
+* Asegúrate de entender qué está pasando al ejecutar cada comando y también qué pasa cuando se escriben las direcciones o las url en los navegadores.
+
+
 
