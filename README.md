@@ -13,5 +13,12 @@ Los pasos para ejecutar la aplicación son:
 * Descarga el repositorio.
 * Ejecutar npm install
 * Ejecutar npm start
-* Abre un navegador y escribe la dirección http://localhost:3000/page1.
-* Abre otro ventana del mismo navegador y escribe la dirección http://localhost:3000/page2.
+* Abre un navegador y escribe la dirección
+  ```
+  http://localhost:3000/page1
+  ```
+* Abre otro ventana del mismo navegador y escribe la dirección
+  ```
+  http://localhost:3000/page2
+  ```
+
