@@ -27,11 +27,13 @@ io.on('connection', (socket) => {
     });
 
     socket.on('win1update', (window1, sendid) => {
+        console.log('Received win1update from ID:', socket.id, 'Data:', window1);
         page1 = window1;
         socket.broadcast.emit('getdata', page1);
     })
 
     socket.on('win2update', (window2, sendid) => {
+        console.log('Received win2update from ID:', socket.id, 'Data:', window2);
         page2 = window2;
         socket.broadcast.emit('getdata', page2)
     })
