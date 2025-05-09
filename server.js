@@ -21,9 +21,9 @@ app.get('/page2', (req, res) => {
 });
 
 io.on('connection', (socket) => {
-    console.log('A user connected');
+    console.log('A user connected - ID:', socket.id); 
     socket.on('disconnect', () => {
-        console.log('User disconnected');
+        console.log('User disconnected - ID:', socket.id);
     });
 
     socket.on('win1update', (window1, sendid) => {
